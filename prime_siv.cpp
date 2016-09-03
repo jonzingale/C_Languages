@@ -17,7 +17,7 @@ unsigned long long primes_siv(unsigned long long l, bool show_all) {
   }
   ilim = (lim - 1) / 3;
   for (i = 1; i < ilim; ++i) {
-    for (j = 1; j <= j; ++j) {
+    for (j = 1; j <= i; ++j) {
       c = (2 * i * j + i + j);
       if (c <= lim_2) {
         composites[c] = true;
